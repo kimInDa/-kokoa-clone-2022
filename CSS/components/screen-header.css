@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
+    padding-top: 55px;
     margin-bottom: 10px;
 }
 
@@ -17,4 +18,19 @@
 
 .friends-screen {
     padding: 0px var(--horizontal-space);
+}
+
+.screen-header__icons{
+    position: relative;
+}
+
+.screen-header__icons__notification {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: -5px;
+    bottom: 20px;
 }
